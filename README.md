@@ -1,4 +1,3 @@
-# Search-Engine-LLM-app
 ---
 title: Search Engine LLM App
 emoji: 🦀
