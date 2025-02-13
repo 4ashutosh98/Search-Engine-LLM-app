@@ -1,0 +1,9 @@
+arxiv
+wikipedia
+langchain
+langchain-community
+langchain-huggingface
+openai
+duckduckgo-search
+ollama
+langchain-ollama
