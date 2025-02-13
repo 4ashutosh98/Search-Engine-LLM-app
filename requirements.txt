@@ -3,6 +3,7 @@ wikipedia
 langchain
 langchain-community
 langchain-huggingface
+langchain-groq
 openai
 duckduckgo-search
 ollama
