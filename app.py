@@ -7,7 +7,6 @@ from langchain.agents import initialize_agent, AgentType
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferWindowMemory
-#from langchain_ollama import ChatOllama
 import os
 from dotenv import load_dotenv
 load_dotenv()
