@@ -15,9 +15,6 @@ load_dotenv()
 os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN")
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
-# Set WSL IP where Ollama is running
-#OLLAMA_WSL_IP = "http://127.0.0.1:11434"
-
 ## Wikipedia Agent/Tool
 api_wrapper_wiki = WikipediaAPIWrapper(top_k_results = 3, doc_content_chars_max=10000)
 wiki = WikipediaQueryRun(api_wrapper=api_wrapper_wiki)
