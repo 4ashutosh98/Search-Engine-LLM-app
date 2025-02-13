@@ -101,7 +101,7 @@ if "memory" not in st.session_state:
     st.session_state.memory = ConversationBufferWindowMemory(k=5, memory_key="chat_history", return_messages=True)
 memory = st.session_state.memory
 
-if prompt:= st.chat_input(placeholder = "Write your prompt here...."):
+if prompt:= st.chat_input(placeholder = "Write your query here...."):
     st.session_state.messages.append({
         "role":"user",
         "content": prompt
