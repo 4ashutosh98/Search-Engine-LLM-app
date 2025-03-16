@@ -18,6 +18,9 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 ## Overview
 This application is a powerful research assistant built with Langchain that can search across multiple knowledge sources including Wikipedia, arXiv, and the web via DuckDuckGo. It leverages Groq's LLM capabilities to provide intelligent, context-aware responses to user queries.
 
+## Live Demo
+Try the application live at: [https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app](https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app)
+
 ## Features
 - **Multi-source search**: Access information from Wikipedia, arXiv scientific papers, and web results
 - **Conversational memory**: Retains context from previous interactions
@@ -140,3 +143,46 @@ Required packages include:
 
 ## Environment Variables
 Create a `.env` file with the following variables:
+```
+GROQ_API_KEY=your_groq_api_key_here
+HF_TOKEN=your_huggingface_token_here
+```
+
+## Usage
+1. Start the application using Streamlit:
+   ```bash
+   streamlit run app.py
+   ```
+2. Enter your Groq API key in the sidebar when prompted
+3. Type your research question in the chat input box
+4. The agent will search across available sources and provide a comprehensive response
+5. Your conversation history will be maintained throughout the session
+
+## Example Queries
+- "What are the latest developments in quantum computing?"
+- "Explain the concept of transformer models in NLP"
+- "What were the key findings from the recent climate change report?"
+- "Tell me about the history and applications of reinforcement learning"
+
+## Deployment
+This project is configured to deploy to Hugging Face Spaces using GitHub Actions. The workflow in `.github/workflows/main.yaml` automatically syncs the repository to Hugging Face when changes are pushed to the main branch.
+
+### Live Application
+The app is currently deployed and accessible at: [https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app](https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app)
+
+### Local Development
+For local development, you can use:
+```bash
+streamlit run app.py
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE[LICENSE] file for details.
+
+## Acknowledgments
+- Langchain for providing the agent and tool framework
+- Groq for the LLM API access
+- Hugging Face for embeddings and hosting capabilities
+
+## Contributing
+Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
