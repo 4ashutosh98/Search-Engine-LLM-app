@@ -13,7 +13,7 @@ short_description: This app allows you to chat with an LLM that can search web.
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
-# Langchain Search Assistant
+# Search Engine LLM App
 
 ## Overview
 This application is a powerful research assistant built with Langchain that can search across multiple knowledge sources including Wikipedia, arXiv, and the web via DuckDuckGo. It leverages Groq's LLM capabilities to provide intelligent, context-aware responses to user queries.
