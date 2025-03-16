@@ -19,7 +19,7 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 This application is a powerful research assistant built with Langchain that can search across multiple knowledge sources including Wikipedia, arXiv, and the web via DuckDuckGo. It leverages Groq's LLM capabilities to provide intelligent, context-aware responses to user queries.
 
 ## Live Demo
-Try the application live at: [https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app](https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app)
+Try the application live at: [Hugging Face Spaces](https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app)
 
 ## Features
 - **Multi-source search**: Access information from Wikipedia, arXiv scientific papers, and web results
@@ -168,7 +168,7 @@ HF_TOKEN=your_huggingface_token_here
 This project is configured to deploy to Hugging Face Spaces using GitHub Actions. The workflow in `.github/workflows/main.yaml` automatically syncs the repository to Hugging Face when changes are pushed to the main branch.
 
 ### Live Application
-The app is currently deployed and accessible at: [https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app](https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app)
+The app is currently deployed and accessible at: [Hugging Face Spaces](https://huggingface.co/spaces/ashutoshchoudhari/Search-Engine-LLM-app)
 
 ### Local Development
 For local development, you can use:
